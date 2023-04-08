@@ -486,4 +486,4 @@ module.exports = crypt;
 ```
 
 
-- Now if you 
+- Now if you enter the name and email and click on the `Pay Now` button you will be redirected to the `Paytm` payment gateway and you can pay using the `Paytm` app or using the `Paytm` website.
