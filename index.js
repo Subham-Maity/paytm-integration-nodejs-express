@@ -1,30 +1,3 @@
-# paytm_payment_gateway_integration
-
-Create a new folder and open it in VS Code.
-
-1. `npm init -y` (this will create package.json file)
-2. `npm i express nodemon` (this will install express and nodemon)
-3. Open the paytm website [here](dashboard.paytm.com/next/apikeys) a
-> Login with your paytm account
-- Go to Developer Settings
-- Click on API Keys
-  
- or,
-
-- Go to [here](https://business.paytm.com/integration-builder/account-setup)
-- Copy the Merchant ID and Merchant Key
-
-4. Change the script in package.json to `"start": "nodemon index.js"`
-
-```json
-  "scripts": {
-    "start": "nodemon index.js"
-  },
-  ```
-5. Create a file named `index.js` and paste the following code.
-
-
-```js
 const express = require("express");
 
 const https = require("https");
@@ -178,5 +151,3 @@ app.post("/callback", (req, res) => {
 app.listen(PORT, () => {
   console.log(`App is listening on Port ${PORT}`);
 });
-```
-
