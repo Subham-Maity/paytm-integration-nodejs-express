@@ -380,6 +380,8 @@ var PaytmConfig = {
 module.exports.PaytmConfig = PaytmConfig;
 ```
 
+> Note: You need to replace the `mid` and `key` with your own `mid` and `key` and `website` with your own `website`
+
 10. Now you need to create the `crypt.js` file inside the `Paytm` folder and copy the following code
 
 ```js
