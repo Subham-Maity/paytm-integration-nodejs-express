@@ -4,7 +4,8 @@
   "description": "paytm payment gateway integration in node.js and express using javascript",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon index.js",
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
